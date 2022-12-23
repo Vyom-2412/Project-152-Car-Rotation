@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Car Model</title>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  
+  <script src="js/Car.js"></script>
+  <script src="js/Base.js"></script>
+  <script src="js/ClickEvent.js"></script>
+
+</head>
+
+<body>
+
+  <a-scene background="color:white">
+
+    <a-entity camera look-controls wasd-controls position="0 40 200">
+
+    </a-entity>
+
+    <a-entity id="car" car rotate-car></a-entity>
+    <a-entity id="base" base></a-entity>
+
+  </a-scene>
+
+</body>
+
+</html>
+
